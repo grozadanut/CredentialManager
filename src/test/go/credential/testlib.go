@@ -12,7 +12,7 @@ import (
 func GetBaseUrl() string {
 	url := os.Getenv("MOQUI_URL")
 	if url == "" {
-		url = "http://localhost:8085"
+		url = "http://moqui:8080"
 	}
 	return url
 }
